@@ -1,0 +1,253 @@
+{
+ "@clerk/nextjs": {
+  "company": "Clerk",
+  "repo": "clerk/javascript",
+  "badges": [
+   [
+    12,
+    "<img alt=\"Downloads\" src=\"https://img.shields.io/npm/dm/@clerk/clerk-js\" />"
+   ]
+  ],
+  "claims": []
+ },
+ "langchain": {
+  "company": "LangChain",
+  "repo": "langchain-ai/langchainjs",
+  "badges": [
+   [
+    15,
+    "![npm](https://img.shields.io/npm/dm/langchain) [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT) [![T"
+   ]
+  ],
+  "claims": []
+ },
+ "@langchain/core": {
+  "company": "LangChain",
+  "repo": "langchain-ai/langchainjs",
+  "badges": [
+   [
+    15,
+    "![npm](https://img.shields.io/npm/dm/langchain) [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT) [![T"
+   ]
+  ],
+  "claims": []
+ },
+ "@libsql/client": {
+  "company": "Turso",
+  "repo": "tursodatabase/libsql-client-ts",
+  "badges": [
+   [
+    40,
+    "<img src=\"https://img.shields.io/npm/dw/%40libsql%2Fclient?color=0F624B\" alt=\"Weekly downloads\" />"
+   ]
+  ],
+  "claims": []
+ },
+ "@tiptap/core": {
+  "company": "Tiptap",
+  "repo": "ueberdosis/tiptap",
+  "badges": [
+   [
+    6,
+    "[![Downloads](https://img.shields.io/npm/dm/@tiptap/core.svg)](https://npmcharts.com/compare/@tiptap/core?minimal=true)"
+   ]
+  ],
+  "claims": []
+ },
+ "@novu/node": {
+  "company": "Novu",
+  "repo": "novuhq/novu",
+  "badges": [
+   [
+    20,
+    "<img src=\"https://img.shields.io/npm/dm/@novu/js\" alt=\"npm downloads\">"
+   ]
+  ],
+  "claims": []
+ },
+ "@pinecone-database/pinecone": {
+  "company": "Pinecone",
+  "repo": "pinecone-io/pinecone-ts-client",
+  "badges": [
+   [
+    1,
+    "# Pinecone TypeScript SDK &middot; ![License](https://img.shields.io/github/license/pinecone-io/pinecone-ts-client?color=orange) ![npm](https://img.shields.io/n"
+   ]
+  ],
+  "claims": []
+ },
+ "@mastra/core": {
+  "company": "Mastra",
+  "repo": "mastra-ai/mastra",
+  "badges": [
+   [
+    8,
+    "[![NPM Downloads](https://img.shields.io/npm/dm/%40mastra%252Fcore)](https://www.npmjs.com/package/@mastra/core)"
+   ]
+  ],
+  "claims": []
+ },
+ "svix": {
+  "company": "Svix",
+  "repo": "svix/svix-webhooks",
+  "badges": [
+   [
+    18,
+    "[![NPM Downloads](https://img.shields.io/npm/dm/svix?logo=npm)](https://www.npmjs.com/package/svix)"
+   ]
+  ],
+  "claims": []
+ },
+ "@directus/sdk": {
+  "company": "Directus",
+  "repo": "directus/directus",
+  "badges": [],
+  "claims": [
+   [
+    8,
+    "45M+ downloads \u00b7 500K+ projects deployed"
+   ]
+  ]
+ },
+ "storybook": {
+  "company": "Chromatic",
+  "repo": "storybookjs/storybook",
+  "badges": [
+   [
+    19,
+    "<img src=\"https://img.shields.io/npm/dw/storybook?style=flat&logo=npm&color=CB3837\" alt=\"NPM downloads per week\" />"
+   ],
+   [
+    128,
+    "| [React](code/frameworks/react-vite)                         | [![](https://img.shields.io/npm/v/@storybook/react-vite/latest?style=flat-square&color=blue&labe"
+   ],
+   [
+    129,
+    "| [Next.js](code/frameworks/nextjs-vite)                      | [![](https://img.shields.io/npm/v/@storybook/nextjs-vite/latest?style=flat-square&color=blue&lab"
+   ],
+   [
+    130,
+    "| [TanStack React](code/frameworks/tanstack-react)            | [![](https://img.shields.io/npm/v/@storybook/tanstack-react/latest?style=flat-square&color=blue&"
+   ],
+   [
+    131,
+    "| [React Native Web](code/frameworks/react-native-web-vite)   | [![](https://img.shields.io/npm/v/@storybook/react-native-web-vite/latest?style=flat-square&colo"
+   ],
+   [
+    132,
+    "| [React Native](https://github.com/storybookjs/react-native) | [![](https://img.shields.io/npm/v/@storybook/react-native/latest?style=flat-square&color=blue&la"
+   ],
+   [
+    133,
+    "| [Vue 3](code/frameworks/vue3-vite)                          | [![](https://img.shields.io/npm/v/@storybook/vue3-vite/latest?style=flat-square&color=blue&label"
+   ],
+   [
+    134,
+    "| [Angular](code/frameworks/angular-vite)                     | [![](https://img.shields.io/npm/v/@storybook/angular-vite/latest?style=flat-square&color=blue&la"
+   ],
+   [
+    135,
+    "| [SvelteKit](code/frameworks/sveltekit)                      | [![](https://img.shields.io/npm/v/@storybook/sveltekit/latest?style=flat-square&color=blue&label"
+   ],
+   [
+    136,
+    "| [Svelte](code/frameworks/svelte-vite)                       | [![](https://img.shields.io/npm/v/@storybook/svelte-vite/latest?style=flat-square&color=blue&lab"
+   ],
+   [
+    137,
+    "| [Web components](code/frameworks/web-components-vite)       | [![](https://img.shields.io/npm/v/@storybook/web-components-vite/latest?style=flat-square&color="
+   ],
+   [
+    138,
+    "| [Preact](code/frameworks/preact-vite)                       | [![](https://img.shields.io/npm/v/@storybook/preact-vite/latest?style=flat-square&color=blue&lab"
+   ],
+   [
+    139,
+    "| [HTML](code/frameworks/html-vite)                           | [![](https://img.shields.io/npm/v/@storybook/html-vite/latest?style=flat-square&color=blue&label"
+   ],
+   [
+    145,
+    "| [Astro](https://storybook-astro.org)                      | [![](https://img.shields.io/npm/v/@storybook-astro/framework/latest?style=flat-square&color=blue&l"
+   ],
+   [
+    146,
+    "| [Nuxt](https://storybook.nuxtjs.org)                      | [![](https://img.shields.io/npm/v/@storybook-vue/nuxt/latest?style=flat-square&color=blue&label)]("
+   ],
+   [
+    147,
+    "| [SolidJS](https://github.com/solidjs-community/storybook) | [![](https://img.shields.io/npm/v/storybook-solidjs-vite/latest?style=flat-square&color=blue&label"
+   ],
+   [
+    157,
+    "| [docs](code/addons/docs/)                                             | Add high quality documentation to your components                         | [![docs](h"
+   ],
+   [
+    158,
+    "| [a11y](code/addons/a11y/)                                             | Test that your components are accessible                                  | [![a11y](h"
+   ],
+   [
+    159,
+    "| [links](code/addons/links/)                                           | Create links between stories                                              | [![links]("
+   ],
+   [
+    160,
+    "| [vitest](code/addons/vitest/)                                         | Run your stories as tests in Vitest browser mode                          | [![vitest]"
+   ],
+   [
+    161,
+    "| [visual tests](https://github.com/chromaui/addon-visual-tests)        | Catch unexpected visual changes in your stories using Chromatic           | [![visual "
+   ],
+   [
+    162,
+    "| [themes](code/addons/themes/)                                         | Switch your component library themes from the toolbar                     | [![themes]"
+   ],
+   [
+    163,
+    "| [msw](https://github.com/mswjs/msw-storybook-addon)                   | Mock API requests in stories using Mock Service Worker                    | [![msw](ht"
+   ],
+   [
+    164,
+    "| [mcp](code/addons/mcp/)                                               | Run a MCP server in your local Storybook                                  | [![mcp](ht"
+   ],
+   [
+    165,
+    "| [designs](https://github.com/storybookjs/addon-designs)               | Embed Figma files and other design previews alongside your story          | [![designs"
+   ],
+   [
+    166,
+    "| [pseudo-states](code/addons/pseudo-states/)                           | Toggle CSS pseudo states such as `:hover` and `:focus` on your components | [![pseudo-"
+   ],
+   [
+    167,
+    "| [dark-mode](https://github.com/hipstersmoothie/storybook-dark-mode)   | Toggle between light and dark mode in Storybook                           | [![dark-mo"
+   ],
+   [
+    168,
+    "| [tag-badges](https://github.com/Sidnioulz/storybook-addon-tag-badges) | Display story tags as badges in the sidebar and toolbar                   | [![tag-bad"
+   ]
+  ],
+  "claims": []
+ },
+ "unleash-client": {
+  "company": "Unleash",
+  "repo": "Unleash/unleash-node-sdk",
+  "badges": [
+   [
+    2,
+    "![npm downloads](https://img.shields.io/npm/dm/unleash-client)"
+   ]
+  ],
+  "claims": []
+ },
+ "e2b": {
+  "company": "E2B",
+  "repo": "e2b-dev/e2b",
+  "badges": [
+   [
+    12,
+    "style=\"color:transparent;width:170px;height:18px\" src=\"https://img.shields.io/npm/dm/e2b?label=NPM%20Monthly%20Downloads\">"
+   ]
+  ],
+  "claims": []
+ }
+}

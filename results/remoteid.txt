@@ -1,0 +1,33 @@
+remoteid (crates.io): MOSTLY NOISE
+  badge number: 1,717 all-time downloads (the crates/d badge)
+  window 2026-11-17 to 2026-11-19 (3 days): 835 downloads
+
+     7.4%              62  Lockfile replays (CI, containers)
+    88.9%             742  Pinned old line with no published dependent
+     0.0%               0  Release-time fetches (mirrors, scanners, update bots)
+     0.0%               0  Flat automation (same every day of the week)
+     3.7%              31  Human-rhythm fresh resolves (the real part, upper bound)
+
+  real users estimate: at most 10 fresh, human-rhythm resolves per weekday (3.7% of downloads)
+  weekend/weekday ratio after cleanup: 0.00
+  latest: 0.3.2; releases in window: 5
+  published dependents: 1
+  largest dependents: uas-cot (0, normal)
+
+  versions (window share, line, dependents asking for that line):
+      88.9%  0.1.0            0.1.x    deps 0        pinned old line, no published dependent asks for it
+       4.6%  0.2.2            0.2.x    deps 1        lockfile replay (a fresh resolve would not pick it)
+       2.8%  0.2.3            0.2.x    deps 1        newest in its line
+       2.6%  0.2.1            0.2.x    deps 1        lockfile replay (a fresh resolve would not pick it)
+       1.2%  0.2.0            0.2.x    deps 1        lockfile replay (a fresh resolve would not pick it)
+
+  * One old version, 0.1.0, takes 89% of all downloads while the latest is 0.2.3, and 0 published package(s) ask for its line. That is the shape of one project's pinned CI, not of new users.
+  * 89% of downloads go to an old line that no published package requires.
+
+  assumptions:
+    [lockfile] A fresh `cargo add`/`cargo update` resolves the newest version of a compatibility line. Downloads of any older version in the same line come from a committed lockfile being replayed, and a developer machine caches crates, so a repeat download of a pinned version is a CI runner or container starting cold. Counted per day: a version counts as fresh on the days it was the newest of its line.
+    [pinned_line] An older compatibility line that no published package requires is being pulled by projects that never publish: one app's or one company's CI. It is a handful of consumers, not a crowd. Only applied when the dependents for that line were counted.
+    [release] On a publish day and the 1 day(s) after, downloads above the median of the 7 quiet days before are mirrors, registries, scanners and Dependabot/Renovate fetching the new version, not new users. 5 release(s) in the window. When release days cover more than 40% of the window there is no quiet baseline and nothing is removed here.
+    [flat] Too few downloads or days to read a weekly rhythm; nothing removed for flat automation.
+    [real] What is left: newest-in-line downloads on quiet days that follow the working week. It still includes push-triggered CI that resolves without a lockfile, so it is an upper bound on people.
+    human weekend ratio 0.48, noise threshold 50%

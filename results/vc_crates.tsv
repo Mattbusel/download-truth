@@ -1,0 +1,24 @@
+surrealdb	SurrealDB
+qdrant-client	Qdrant
+meilisearch-sdk	Meilisearch
+polars	Polars
+shuttle-runtime	Shuttle
+lancedb	LanceDB
+lance	LanceDB
+spin-sdk	Fermyon
+wasmer	Wasmer
+libsql	Turso
+deno_core	Deno
+oxc_parser	VoidZero
+svix	Svix
+tokenizers	Hugging Face
+candle-core	Hugging Face
+rerun	Rerun
+iroh	n0
+fluvio	InfinyOn
+sentry	Sentry
+databend-driver	Databend
+restate-sdk	Restate
+ockam	Ockam
+jiter	Pydantic
+turso	Turso

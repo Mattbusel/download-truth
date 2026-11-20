@@ -1,0 +1,36 @@
+name: download-truth
+description: Fail a README downloads badge when most of those downloads are CI, lockfiles and publishing, not users.
+branding:
+  icon: alert-triangle
+  color: red
+inputs:
+  readme:
+    description: README to check for crates.io / npm downloads badges.
+    default: README.md
+  max-noise:
+    description: Noise share (0-1) above which the check fails.
+    default: "0.5"
+  badge-json:
+    description: Optional path for a shields.io endpoint JSON with the real number.
+    default: ""
+  version:
+    description: download-truth version to install from crates.io.
+    default: "0.1.0"
+runs:
+  using: composite
+  steps:
+    - name: Install download-truth
+      shell: bash
+      env:
+        DT_VERSION: ${{ inputs.version }}
+      run: cargo install download-truth --version "$DT_VERSION" --locked --root "$RUNNER_TEMP/download-truth"
+    - name: Check downloads badges
+      shell: bash
+      env:
+        DT_README: ${{ inputs.readme }}
+        DT_MAX_NOISE: ${{ inputs.max-noise }}
+        DT_BADGE_JSON: ${{ inputs.badge-json }}
+      run: |
+        args=(readme "$DT_README" --max-noise "$DT_MAX_NOISE")
+        if [ -n "$DT_BADGE_JSON" ]; then args+=(--badge-json "$DT_BADGE_JSON"); fi
+        "$RUNNER_TEMP/download-truth/bin/download-truth" "${args[@]}"

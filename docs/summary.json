@@ -1,0 +1,38 @@
+{
+ "Top 200 crates by 90-day downloads": {
+  "n": 200,
+  "mostly_noise": 130,
+  "median_noise": 0.6172406806823512,
+  "median_lockfile": 0.4033652243021,
+  "median_flat": 0.18044609775305015,
+  "median_release": 0.0,
+  "median_pinned": 0.0,
+  "downloads": 63821085701,
+  "real_downloads": 27844926459.83284,
+  "real_share_weighted": 0.436296658917486
+ },
+ "Top 200 npm packages (npm-high-impact top-download list)": {
+  "n": 200,
+  "mostly_noise": 38,
+  "median_noise": 0.23489185048940348,
+  "median_lockfile": 0.054596149650249365,
+  "median_flat": 0.12074525207498446,
+  "median_release": 0.0,
+  "median_pinned": 0.0,
+  "downloads": 719570568415,
+  "real_downloads": 475717650331.4437,
+  "real_share_weighted": 0.661113268402998
+ },
+ "Venture-backed companies' flagship packages": {
+  "n": 96,
+  "mostly_noise": 58,
+  "median_noise": 0.5483628933851945,
+  "median_lockfile": 0.22743140245425292,
+  "median_flat": 0.12819129184439826,
+  "median_release": 0.006430021553377187,
+  "median_pinned": 0.0,
+  "downloads": 12899075689,
+  "real_downloads": 4867888019.706504,
+  "real_share_weighted": 0.3773827006734842
+ }
+}
